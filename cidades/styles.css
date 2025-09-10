@@ -4,11 +4,30 @@
     list-style:none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
+
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
     height: 10vh;
 }
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h2{text-align: center;
+text-wrap: wrap;}
+img{
+    width: 500px;
+    height:400px;
+}
+
+
