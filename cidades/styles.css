@@ -1,0 +1,14 @@
+.nav-items {
+    width: 50vw;
+    height: 10vh;
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+}
