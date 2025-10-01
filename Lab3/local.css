@@ -1,0 +1,30 @@
+
+body.local {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #111;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+
+body.local header h2 {
+    text-align: center;
+    color: #d40000;
+    margin-bottom: 2rem;
+}
+
+
+.descricao p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.mapa iframe {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #d40000;
+    border-radius: 8px;
+}
+

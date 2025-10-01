@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #111;
+    line-height: 1.5;
+}
+
+
+header {
+    background-color: #d40000;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1rem;
+    text-align: center;
+    color: #d40000;
+}
+
+.anchors {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.anchors a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+.anchors a:hover {
+    color: #ffdd00;
+}
+
+
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h3 {
+    color: #d40000;
+    margin-bottom: 1rem;
+}
+
+
+.fotografias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.fotografias img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.fotografias img:hover {
+    transform: scale(1.2);
+}
+
+
+.video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    display: block;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.poesia div p {
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.poesia div p:nth-child(odd) {
+    color: #d40000;
+    font-weight: bold;
+}
+
+.poesia div p:nth-child(even) {
+    color: #ffdd00;
+    font-style: italic;
+}
+
+
+@media (max-width: 600px) {
+    .fotografias img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .video iframe {
+        height: 200px;
+    }
+}

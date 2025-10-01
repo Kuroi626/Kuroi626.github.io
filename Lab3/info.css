@@ -1,0 +1,60 @@
+
+body.info {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #111;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+
+body.info header h2 {
+    text-align: center;
+    color: #d40000;
+    margin-bottom: 2rem;
+}
+
+
+.intro p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    border: 2px solid #000;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+th {
+    background-color: #d40000;
+    color: #fff;
+}
+
+td {
+    background-color: #ffdd00;
+    color: #111;
+}
+
+
+.curiosidades ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+.curiosidades li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    align-self: center;
+}
