@@ -1,0 +1,30 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+.hover{
+    font-size: 2vw;
+}
+.paint-buttons{
+    font-size: 2vw;
+    width: 100vw;
+    display:flex;
+    gap:2vw;
+
+}
+.paint-buttons>input{
+    width: 6vw;
+    font-size: 2vw;
+}
+
+.input-color{
+    display: flex;
+    gap: 2vw;
+}
+
+.contador{
+    display:flex;
+    gap: 2vw;
+}
