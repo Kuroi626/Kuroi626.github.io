@@ -8,7 +8,7 @@ let actualColor=0;
 let colors = ['red','green','blue','yellow','pink']
 let countBtn = document.querySelector('.count-btn')
 let countText = document.querySelector('.count-text')
-
+let countValue = 0
 
 
 
@@ -37,6 +37,11 @@ colorTextBox.addEventListener('keydown',()=>{
     if(actualColor>=colors.length){actualColor=0};
     actualColor++;
 
+})
+
+countBtn.addEventListener('click',()=>{
+    countValue++;
+    countText.innerHTML = countValue;
 })
 
 
