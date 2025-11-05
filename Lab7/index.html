@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1>LOJA</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#cesto">Cesto</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <main>
+<section class="filtros">
+  <h2>Filtrar</h2>
+  <select name="categoria" id="filtro-categoria">
+    <option value="" disabled selected hidden>Filtrar por Categoria</option>
+  </select>
+
+  <h2>Ordenar</h2>
+  <select name="preco" id="filtro-preco">
+    <option value="" disabled selected hidden>Ordenar por Preço</option>
+    <option value="asc">Menor → Maior</option>
+    <option value="desc">Maior → Menor</option>
+  </select>
+
+  <h2>Pesquisar</h2>
+  <input type="text" id="pesquisa" placeholder="Procure um produto...">
+</section>
+        
+
+
+
+            <section id="produtos">
+
+            </section>
+
+            <section id="cesto">
+
+            </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+
+    <script src="produtos.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
